@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fritson Apps</string>
+    <string name="heading">HEADING</string>
+    <string name="desc">Description</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+</resources>

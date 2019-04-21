@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorNavy">#00293c</color>
+    <color name="colorIvory">#f1f3ce</color>
+    <color name="colorPeacockBlue">#1e656d</color>
+    <color name="colorCandyApple">#f62a00</color>
+    <color name="colorMidnightBlue">#1e1f26</color>
+    <color name="colorIndigoInk">#283655</color>
+    <color name="colorBlueberry">#4d648d</color>
+    <color name="colorPeriwinkle">#d0e1f9</color>
+    <color name="colorWhite">#f3f3f3</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+</resources>
