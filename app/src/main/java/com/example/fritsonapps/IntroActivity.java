@@ -71,7 +71,7 @@ public class IntroActivity extends AppCompatActivity {
         }
 
         if (Dots.length > 0){
-            Dots[position].setTextColor(getResources().getColor(R.color.colorCandyApple));
+            Dots[position].setTextColor(getResources().getColor(R.color.colorHotPink));
         }
     }
 
@@ -93,7 +93,7 @@ public class IntroActivity extends AppCompatActivity {
                 BackButton.setVisibility(View.INVISIBLE);
 
                 NextButton.setText("Next");
-                BackButton.setText("Back");
+                BackButton.setText("");
             }
             else if (i == Dots.length - 1){
                 NextButton.setEnabled(true);

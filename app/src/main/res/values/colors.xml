@@ -12,5 +12,9 @@
     <color name="colorBlueberry">#4d648d</color>
     <color name="colorPeriwinkle">#d0e1f9</color>
     <color name="colorWhite">#f3f3f3</color>
+    <color name="colorTiffanyBlue">#BCECE0</color>
+    <color name="colorCyan">#36EEE0</color>
+    <color name="colorHotPink">#F652A0</color>
+    <color name="colorCornFlower">#4C5270</color>
     <color name="colorTransparentWhite">#cccccc</color>
 </resources>
