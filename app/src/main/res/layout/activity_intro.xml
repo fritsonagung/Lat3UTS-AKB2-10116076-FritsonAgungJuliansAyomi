@@ -4,7 +4,7 @@
     android:id="@+id/RelativeSlider"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorCornFlower"
+    android:background="@drawable/bg_color_gradient"
     android:orientation="vertical"
     tools:context=".IntroActivity">
 
@@ -35,8 +35,10 @@
         android:text="@string/back"
         android:textAllCaps="false"
         android:textColor="@color/colorHotPink"
-        android:textSize="@dimen/_16sdp"
+        android:textSize="@dimen/_15sdp"
         android:visibility="invisible"
+        android:fontFamily="@font/book_os"
+        android:textStyle="bold"
         style="?android:attr/borderlessButtonStyle"/>
 
     <Button
@@ -50,6 +52,8 @@
         android:background="@color/colorCornFlower"
         android:textAllCaps="false"
         android:paddingBottom="@dimen/_15sdp"
-        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/book_os"
         style="?android:attr/borderlessButtonStyle"/>
 </RelativeLayout>

@@ -5,15 +5,15 @@
     android:id="@+id/SplashScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorCornFlower"
+    android:background="@drawable/bg_color_gradient"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SplashActivity">
 
     <ImageView
         android:id="@+id/logoSplashScreen"
-        android:layout_width="@dimen/_150sdp"
-        android:layout_height="@dimen/_150sdp"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
         android:paddingBottom="@dimen/_10sdp"
         android:paddingLeft="@dimen/_10sdp"
         android:paddingRight="@dimen/_10sdp"

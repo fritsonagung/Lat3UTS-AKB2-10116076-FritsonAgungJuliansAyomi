@@ -30,7 +30,7 @@ public class SliderAdapter extends PagerAdapter {
     };
 
     public String[] slider_description = {
-            "Welcome to Fritson Apps. In this application you can learn many things about me. Starting " +
+            "Welcome to Fritson Apps. In this application you can learn various things about me (Fritson). Starting " +
                     "from my full name, date of birth, " +
                     "address and others stuff about my profile",
             "You can learn about my favorite music that I often listen to & what kind of " +
