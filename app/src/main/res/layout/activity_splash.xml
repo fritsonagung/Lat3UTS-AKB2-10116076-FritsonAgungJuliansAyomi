@@ -14,6 +14,10 @@
         android:id="@+id/logoSplashScreen"
         android:layout_width="@dimen/_150sdp"
         android:layout_height="@dimen/_150sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
         app:srcCompat="@drawable/logo"
         tools:ignore="ContentDescription,MissingConstraints" />
 </LinearLayout>

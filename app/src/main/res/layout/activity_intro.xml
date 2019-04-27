@@ -5,13 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorCornFlower"
+    android:orientation="vertical"
     tools:context=".IntroActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/ViewPagerSlider"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="@dimen/_82sdp"></android.support.v4.view.ViewPager>
+        android:layout_above="@+id/LinearSliderDot"
+        android:layout_marginBottom="14dp"></android.support.v4.view.ViewPager>
 
     <LinearLayout
         android:id="@+id/LinearSliderDot"

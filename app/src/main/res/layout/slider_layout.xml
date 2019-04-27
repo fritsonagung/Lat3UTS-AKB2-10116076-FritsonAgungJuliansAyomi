@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/SliderImageView"
-        android:layout_width="@dimen/_120sdp"
-        android:layout_height="@dimen/_120sdp"
-        android:layout_marginTop="@dimen/_65sdp"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/about_self"
-        tools:targetApi="JELLY_BEAN"
-        tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/SliderImageView"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_60sdp"
+            app:srcCompat="@drawable/about_self"
+            tools:ignore="ContentDescription"
+            tools:targetApi="JELLY_BEAN" />
 
-    <TextView
-        android:id="@+id/HeadingTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/SliderImageView"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="@dimen/_30sdp"
-        app:fontFamily="@font/book_os"
-        android:text="@string/heading"
-        android:textColor="@color/colorTiffanyBlue"
-        android:textAlignment="center"
-        android:textSize="@dimen/_20sdp"
-        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/HeadingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SliderImageView"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/heading"
+            android:textAlignment="center"
+            android:textColor="@color/colorTiffanyBlue"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:fontFamily="@font/book_os"
+            tools:ignore="SpUsage" />
 
-    <TextView
-        android:id="@+id/DescTextView"
-        android:layout_width="@dimen/_300sdp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/HeadingTextView"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:text="@string/desc"
-        android:textAlignment="center"
-        android:textColor="@color/colorPeriwinkle"
-        android:textSize="@dimen/_13sdp" />
+        <TextView
+            android:id="@+id/DescTextView"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/HeadingTextView"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/desc"
+            android:textAlignment="center"
+            android:textColor="@color/colorPeriwinkle"
+            android:textSize="@dimen/_13sdp"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+
 </RelativeLayout>

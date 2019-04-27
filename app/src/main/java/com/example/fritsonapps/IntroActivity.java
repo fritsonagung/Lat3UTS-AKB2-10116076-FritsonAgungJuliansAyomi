@@ -41,7 +41,7 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if( NextButton.getText() == "Finish"){
-                    startActivity(new Intent(IntroActivity.this, MainActivity.class));
+                    startActivity(new Intent(IntroActivity.this, BottomNavigation.class));
                 }
                 else{
                     SlideViewPager.setCurrentItem(currentPage + 1);

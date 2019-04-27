@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ThemeOverlay.AppCompat.navTheme">
+
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary">@color/colorTransparentWhite</item>
+
+        <!-- Background color when SELECTED -->
+        <item name="colorControlHighlight">@color/colorTransparentWhite</item>
+
+    </style>
 </resources>

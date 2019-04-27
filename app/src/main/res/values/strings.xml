@@ -4,4 +4,11 @@
     <string name="desc">Description</string>
     <string name="back">Back</string>
     <string name="next">Next</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_daily_activity">Daily Activity</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_music_and_video">Music and Video</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
 </resources>

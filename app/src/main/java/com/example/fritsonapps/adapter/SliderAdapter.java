@@ -4,7 +4,6 @@ import android.content.*;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.view.*;
-import android.support.*;
 import android.widget.*;
 
 import com.example.fritsonapps.R;
