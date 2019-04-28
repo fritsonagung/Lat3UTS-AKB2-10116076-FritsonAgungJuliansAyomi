@@ -28,8 +28,8 @@ public class BottomNavigation extends AppCompatActivity
         loadFragment(new HomeFragment());
     }
 
-    private  boolean loadFragment(Fragment fragment){
-        if(fragment != null){
+    private boolean loadFragment(Fragment fragment) {
+        if (fragment != null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment).commit();
 
             return true;
@@ -42,7 +42,7 @@ public class BottomNavigation extends AppCompatActivity
 
         Fragment fragment = null;
 
-        switch (menuItem.getItemId()){
+        switch (menuItem.getItemId()) {
             case R.id.navigation_Home:
                 fragment = new HomeFragment();
                 break;

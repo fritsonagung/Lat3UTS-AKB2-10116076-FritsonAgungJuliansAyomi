@@ -11,9 +11,8 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toTopOf="@+id/nav_view"></FrameLayout>
-
-
+        app:layout_constraintBottom_toTopOf="@+id/nav_view">
+    </FrameLayout>
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/nav_view"
@@ -26,8 +25,8 @@
         app:itemTextColor="@drawable/nav_item_selected"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:theme="@style/ThemeOverlay.AppCompat.navTheme"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
+        app:menu="@menu/bottom_nav_menu"
+        app:theme="@style/ThemeOverlay.AppCompat.navTheme" />
 
 </android.support.constraint.ConstraintLayout>

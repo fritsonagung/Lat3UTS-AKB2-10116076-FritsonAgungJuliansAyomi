@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Button;
+
 import com.example.fritsonapps.adapter.SliderAdapter;
 
 public class IntroActivity extends AppCompatActivity {
@@ -26,8 +27,8 @@ public class IntroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-        SlideViewPager = findViewById(R.id. ViewPagerSlider);
-        DotsSlider = findViewById(R.id. LinearSliderDot);
+        SlideViewPager = findViewById(R.id.ViewPagerSlider);
+        DotsSlider = findViewById(R.id.LinearSliderDot);
         NextButton = findViewById(R.id.buttonNext);
         BackButton = findViewById(R.id.buttonBack);
 
@@ -40,10 +41,9 @@ public class IntroActivity extends AppCompatActivity {
         NextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if( NextButton.getText() == "Finish"){
+                if (NextButton.getText() == "Finish") {
                     startActivity(new Intent(IntroActivity.this, BottomNavigation.class));
-                }
-                else{
+                } else {
                     SlideViewPager.setCurrentItem(currentPage + 1);
                 }
             }
@@ -57,11 +57,11 @@ public class IntroActivity extends AppCompatActivity {
         });
     }
 
-    public void addDotsIndicator(int position){
+    public void addDotsIndicator(int position) {
         Dots = new TextView[3];
         DotsSlider.removeAllViews();
 
-        for (int i = 0; i < Dots.length; i++){
+        for (int i = 0; i < Dots.length; i++) {
             Dots[i] = new TextView(this);
             Dots[i].setText(Html.fromHtml("&#8226;"));
             Dots[i].setTextSize(35);
@@ -70,7 +70,7 @@ public class IntroActivity extends AppCompatActivity {
             DotsSlider.addView(Dots[i]);
         }
 
-        if (Dots.length > 0){
+        if (Dots.length > 0) {
             Dots[position].setTextColor(getResources().getColor(R.color.colorHotPink));
         }
     }
@@ -87,23 +87,21 @@ public class IntroActivity extends AppCompatActivity {
 
             currentPage = i;
 
-            if(i == 0){
+            if (i == 0) {
                 NextButton.setEnabled(true);
                 BackButton.setEnabled(false);
                 BackButton.setVisibility(View.INVISIBLE);
 
                 NextButton.setText("Next");
                 BackButton.setText("");
-            }
-            else if (i == Dots.length - 1){
+            } else if (i == Dots.length - 1) {
                 NextButton.setEnabled(true);
                 BackButton.setEnabled(true);
                 BackButton.setVisibility(View.VISIBLE);
 
                 NextButton.setText("Finish");
                 BackButton.setText("Back");
-            }
-            else{
+            } else {
                 NextButton.setEnabled(true);
                 BackButton.setEnabled(true);
                 BackButton.setVisibility(View.VISIBLE);

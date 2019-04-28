@@ -26,34 +26,34 @@
 
     <Button
         android:id="@+id/buttonBack"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:background="@color/colorCornFlower"
+        android:fontFamily="@font/book_os"
         android:paddingBottom="@dimen/_15sdp"
         android:text="@string/back"
         android:textAllCaps="false"
         android:textColor="@color/colorHotPink"
         android:textSize="@dimen/_15sdp"
-        android:visibility="invisible"
-        android:fontFamily="@font/book_os"
         android:textStyle="bold"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/buttonNext"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textColor="@color/colorHotPink"
-        android:text="@string/next"
+        android:layout_alignParentBottom="true"
         android:background="@color/colorCornFlower"
-        android:textAllCaps="false"
-        android:paddingBottom="@dimen/_15sdp"
-        android:textStyle="bold"
-        android:textSize="@dimen/_15sdp"
         android:fontFamily="@font/book_os"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:paddingBottom="@dimen/_15sdp"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/colorHotPink"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
 </RelativeLayout>
