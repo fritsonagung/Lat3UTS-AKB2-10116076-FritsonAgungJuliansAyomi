@@ -12,7 +12,7 @@ import android.widget.Button;
 
 import com.example.fritsonapps.adapter.SliderAdapter;
 
-public class IntroActivity extends AppCompatActivity {
+public class WalkthroughActivity extends AppCompatActivity {
 
     private ViewPager SlideViewPager;
     private LinearLayout DotsSlider;
@@ -42,7 +42,7 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (NextButton.getText() == "Finish") {
-                    startActivity(new Intent(IntroActivity.this, BottomNavigation.class));
+                    startActivity(new Intent(WalkthroughActivity.this, BottomNavigation.class));
                 } else {
                     SlideViewPager.setCurrentItem(currentPage + 1);
                 }
@@ -71,7 +71,7 @@ public class IntroActivity extends AppCompatActivity {
         }
 
         if (Dots.length > 0) {
-            Dots[position].setTextColor(getResources().getColor(R.color.colorHotPink));
+            Dots[position].setTextColor(getResources().getColor(R.color.colorAccent));
         }
     }
 

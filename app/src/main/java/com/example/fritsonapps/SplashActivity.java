@@ -10,7 +10,7 @@ import android.widget.*;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT = 3000;
+    private static int SPLASH_TIME_OUT = 5000;
     private ImageView logo;
 
     @Override
@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, IntroActivity.class);
+                Intent intent = new Intent(SplashActivity.this, WalkthroughActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -3,19 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorNavy">#00293c</color>
-    <color name="colorIvory">#f1f3ce</color>
-    <color name="colorPeacockBlue">#1e656d</color>
-    <color name="colorCandyApple">#f62a00</color>
-    <color name="colorMidnightBlue">#1e1f26</color>
-    <color name="colorIndigoInk">#283655</color>
-    <color name="colorBlueberry">#4d648d</color>
-    <color name="colorPeriwinkle">#d0e1f9</color>
     <color name="colorWhite">#f3f3f3</color>
-    <color name="colorTiffanyBlue">#BCECE0</color>
-    <color name="colorCyan">#36EEE0</color>
-    <color name="colorHotPink">#F652A0</color>
-    <color name="colorCornFlower">#4C5270</color>
     <color name="colorTransparentWhite">#cccccc</color>
-    <color name="colorDarkCornFlower">#3A3F59</color>
+    <color name="colorPurple">#6441A5</color>
+    <color name="colorLittleDarkPurple">#4B367B</color>
+    <color name="colorTransparentDarkPurple">#201c2b</color>
+    <color name="colorDarkPurple">#2b2541</color>
+    <color name="colorBlackishPurple">#17141F</color>
+    <color name="colorPaletteDarkPurple">#C6B7E2</color>
+    <color name="colorTransparentPaletteDarkPurple">#A19EA9</color>
 </resources>

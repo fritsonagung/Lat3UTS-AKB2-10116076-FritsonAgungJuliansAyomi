@@ -12,7 +12,7 @@
         <activity
             android:name=".BottomNavigation"
             android:label="@string/title_activity_bottom_navigation"></activity>
-        <activity android:name=".IntroActivity" />
+        <activity android:name=".WalkthroughActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
