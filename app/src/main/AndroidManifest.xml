@@ -11,13 +11,15 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".BottomNavigation"
-            android:label="@string/title_activity_bottom_navigation"></activity>
+            android:label="@string/title_activity_bottom_navigation"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
         <activity android:name=".WalkthroughActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
     </application>

@@ -12,6 +12,14 @@ import android.widget.Button;
 
 import com.example.fritsonapps.adapter.SliderAdapter;
 
+/*
+ Nama : Fritson Agung Julians Ayomi
+ NIM  : 10116076
+ Kelas: AKB-2
+ Tanggal Pengerjaan : 24 April 2019
+ */
+
+
 public class WalkthroughActivity extends AppCompatActivity {
 
     private ViewPager SlideViewPager;

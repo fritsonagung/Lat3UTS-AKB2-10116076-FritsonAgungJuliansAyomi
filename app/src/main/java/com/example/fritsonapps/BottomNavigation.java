@@ -13,6 +13,13 @@ import com.example.fritsonapps.fragment.HomeFragment;
 import com.example.fritsonapps.fragment.MusicAndVideoFragment;
 import com.example.fritsonapps.fragment.ProfileFragment;
 
+/*
+ Nama : Fritson Agung Julians Ayomi
+ NIM  : 10116076
+ Kelas: AKB-2
+ Tanggal Pengerjaan : 24 April 2019
+ */
+
 public class BottomNavigation extends AppCompatActivity
         implements BottomNavigationView.OnNavigationItemSelectedListener {
 

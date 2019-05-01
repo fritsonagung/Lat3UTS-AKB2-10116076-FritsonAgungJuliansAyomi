@@ -20,7 +20,9 @@
     <string name="title_gallery">Gallery</string>
     <string name="title_music_and_video">Music and Video</string>
     <string name="title_profile">Profile</string>
+    <string name="subtitle_friend_list">Friend List</string>
     <string name="title_activity_bottom_navigation">BottomNavigation</string>
     <string name="desc_profile">"Saya adalah anak pertama dari 3 bersaudara. Saya lahir pada tanggal 28 Juli 1998. Saya berasal dari Kota Luwuk, Sulawesi Tengah. Sekarang saya tinggal di Bandung bersama adik perempuan saya.Sekarang saya sedang menempuh pendidikan di perguruan tinggi Universitas Komputer Indonesia, Jurusan Teknik Informatika.Saya tipe orang yang cukup disiplin, humoris, dan lumayan malas."</string>
     <string name="desc_interest">Saya memiliki minat dalam bidang Jaringan Komputer. Hobby saya adalah bermain game, mendengarkan musik, dan membaca komik. Cita-cita saya adalah saya ingin membuat sebuah perusahaan pengembangan video game</string>
 </resources>
+
