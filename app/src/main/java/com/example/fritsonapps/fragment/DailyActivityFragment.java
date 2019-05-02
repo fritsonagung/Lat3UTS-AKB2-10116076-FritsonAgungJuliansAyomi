@@ -3,7 +3,10 @@ package com.example.fritsonapps.fragment;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,6 +15,7 @@ import android.view.ViewGroup;
 
 import com.example.fritsonapps.R;
 import com.example.fritsonapps.adapter.DailyActivityAdapter;
+import com.example.fritsonapps.adapter.SubMenuPagerAdapter;
 import com.example.fritsonapps.model.DailyActivityModel;
 import com.example.fritsonapps.presenter.DailyActivityPresenter;
 import com.example.fritsonapps.presenter.DailyActivityPresenterImpl;
@@ -28,40 +32,37 @@ import java.util.List;
  */
 
 
-public class DailyActivityFragment extends Fragment implements DailyActivityView {
+public class DailyActivityFragment extends Fragment {
 
-    public View v;
-    private RecyclerView recyclerDaily;
-    private List<DailyActivityModel> activities = new ArrayList<>();
-    private DailyActivityAdapter dailyActivityAdapter;
-    private DailyActivityPresenter dailyActivityPresenter;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private SubMenuPagerAdapter adapter;
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setRetainInstance(true);
+    }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        v = inflater.inflate(R.layout.daily_activity_fragment, container, false);
+        View v = inflater.inflate(R.layout.daily_activity_fragment, container, false);
 
-        dailyActivityPresenter = new DailyActivityPresenterImpl(this);
+        viewPager = v.findViewById(R.id.daily_view_pager);
+        setupViewPager(viewPager);
 
-        recyclerDaily = v.findViewById(R.id.recycler_view_daily);
-        recyclerDaily.setLayoutManager(new LinearLayoutManager(this.getContext()));
-
-        dailyActivityAdapter = new DailyActivityAdapter(activities);
-
-        recyclerDaily.setAdapter(dailyActivityAdapter);
-
-        dailyActivityPresenter.load();
+        tabLayout = v.findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
 
         return v;
     }
 
-
-    @Override
-    public void onLoad(List<DailyActivityModel> activity) {
-        activities.clear();
-        activities.addAll(activity);
-
-        dailyActivityAdapter.notifyDataSetChanged();
+    private void setupViewPager(ViewPager viewPager) {
+        adapter = new SubMenuPagerAdapter(getChildFragmentManager());
+        ((SubMenuPagerAdapter) adapter).addFragment(new DailyActivitySubFragment(), "Daily Activity");
+        ((SubMenuPagerAdapter) adapter).addFragment(new FriendsListFragment(), "Friends List");
+        viewPager.setAdapter((PagerAdapter) adapter);
     }
+
 }

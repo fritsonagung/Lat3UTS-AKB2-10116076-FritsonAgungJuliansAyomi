@@ -10,16 +10,15 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 
 import com.example.fritsonapps.R;
-import com.example.fritsonapps.adapter.HomePagerAdapter;
+import com.example.fritsonapps.adapter.SubMenuPagerAdapter;
 
 public class HomeFragment extends Fragment {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private HomePagerAdapter adapter;
+    private SubMenuPagerAdapter adapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,9 +41,9 @@ public class HomeFragment extends Fragment {
     }
 
     private void setupViewPager(ViewPager viewPager) {
-        adapter = new HomePagerAdapter(getChildFragmentManager());
-        ((HomePagerAdapter) adapter).addFragment(new ProfileDescFragment(), "Profile");
-        ((HomePagerAdapter) adapter).addFragment(new InterestFragment(), "Interest");
+        adapter = new SubMenuPagerAdapter(getChildFragmentManager());
+        ((SubMenuPagerAdapter) adapter).addFragment(new ProfileDescFragment(), "Profile");
+        ((SubMenuPagerAdapter) adapter).addFragment(new InterestFragment(), "Interest");
         viewPager.setAdapter((PagerAdapter) adapter);
     }
 

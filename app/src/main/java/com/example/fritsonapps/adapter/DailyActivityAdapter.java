@@ -11,7 +11,6 @@ import android.widget.TextView;
 import com.example.fritsonapps.model.DailyActivityModel;
 import com.example.fritsonapps.R;
 
-import java.util.BitSet;
 import java.util.List;
 
 /*

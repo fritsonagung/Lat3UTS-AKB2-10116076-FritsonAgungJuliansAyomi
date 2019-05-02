@@ -1,7 +1,5 @@
 package com.example.fritsonapps.presenter;
 
-import com.example.fritsonapps.model.DailyActivityModel;
-
 /*
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
