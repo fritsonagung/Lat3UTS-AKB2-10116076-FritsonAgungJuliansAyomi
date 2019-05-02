@@ -14,8 +14,8 @@
             android:label="@string/title_activity_bottom_navigation"
             android:configChanges="orientation|keyboardHidden|screenSize">
         </activity>
-        <activity android:name=".WalkthroughActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".view.WalkthroughActivity" />
+        <activity android:name=".view.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

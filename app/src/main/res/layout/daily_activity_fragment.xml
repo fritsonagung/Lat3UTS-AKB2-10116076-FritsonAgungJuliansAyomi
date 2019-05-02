@@ -54,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/headerTitle"
+        android:layout_marginBottom="@dimen/_43sdp"
         android:paddingTop="@dimen/_3sdp"
         android:paddingBottom="@dimen/_5sdp">
 

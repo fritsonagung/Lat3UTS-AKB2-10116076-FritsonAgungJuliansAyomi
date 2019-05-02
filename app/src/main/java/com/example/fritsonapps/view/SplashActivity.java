@@ -1,4 +1,4 @@
-package com.example.fritsonapps;
+package com.example.fritsonapps.view;
 
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.content.*;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.*;
+
+import com.example.fritsonapps.R;
 
 /*
  Nama : Fritson Agung Julians Ayomi

@@ -10,12 +10,11 @@ import android.view.ViewGroup;
 
 import com.example.fritsonapps.R;
 
-public class MusicAndVideoFragment extends Fragment {
+public class InterestFragment extends Fragment {
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.music_and_video_fragment,container, false);
-
-        return v;
+        return inflater.inflate(R.layout.interest_fragment, null);
     }
 }

@@ -3,19 +3,52 @@ package com.example.fritsonapps.fragment;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Adapter;
 
 import com.example.fritsonapps.R;
+import com.example.fritsonapps.adapter.HomePagerAdapter;
 
 public class HomeFragment extends Fragment {
+
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private HomePagerAdapter adapter;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setRetainInstance(true);
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.home_fragment, null);
+        View v = inflater.inflate(R.layout.home_fragment, container, false);
+
+        viewPager = v.findViewById(R.id.home_view_pager);
+        setupViewPager(viewPager);
+
+        tabLayout = v.findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+
+        return v;
     }
+
+    private void setupViewPager(ViewPager viewPager) {
+        adapter = new HomePagerAdapter(getChildFragmentManager());
+        ((HomePagerAdapter) adapter).addFragment(new ProfileDescFragment(), "Profile");
+        ((HomePagerAdapter) adapter).addFragment(new InterestFragment(), "Interest");
+        viewPager.setAdapter((PagerAdapter) adapter);
+    }
+
+
 }
 
 
