@@ -8,6 +8,13 @@ import com.example.fritsonapps.view.FriendsListView;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ Nama : Fritson Agung Julians Ayomi
+ NIM  : 10116076
+ Kelas: AKB-2
+ Tanggal Pengerjaan : 02 Mei 2019
+ */
+
 public class FriendsListPresenterImpl implements FriendsListPresenter{
 
     private FriendsListView friendsListView;
@@ -31,8 +38,8 @@ public class FriendsListPresenterImpl implements FriendsListPresenter{
         pictures.add(picture1);
 
         FriendsListModel picture2 = new FriendsListModel();
-        picture2.setPicture(R.drawable.friends_1);
-        picture2.setFriendsName("3");
+        picture2.setPicture(R.drawable.friends_3);
+        picture2.setFriendsName("Aditya Maulana R");
         pictures.add(picture2);
 
         FriendsListModel picture3 = new FriendsListModel();

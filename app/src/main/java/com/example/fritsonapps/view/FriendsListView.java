@@ -4,6 +4,14 @@ import com.example.fritsonapps.model.FriendsListModel;
 
 import java.util.List;
 
+
+/*
+ Nama : Fritson Agung Julians Ayomi
+ NIM  : 10116076
+ Kelas: AKB-2
+ Tanggal Pengerjaan : 02 Mei 2019
+ */
+
 public interface FriendsListView {
 
     void onLoad(List<FriendsListModel> pictures);

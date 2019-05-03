@@ -24,6 +24,14 @@ import com.example.fritsonapps.view.FriendsListView;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/*
+ Nama : Fritson Agung Julians Ayomi
+ NIM  : 10116076
+ Kelas: AKB-2
+ Tanggal Pengerjaan : 02 Mei 2019
+ */
+
 public class FriendsListFragment extends Fragment implements FriendsListView {
 
     private View v;

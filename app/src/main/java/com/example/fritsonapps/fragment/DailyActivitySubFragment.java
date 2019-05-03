@@ -20,6 +20,13 @@ import com.example.fritsonapps.view.DailyActivityView;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ Nama : Fritson Agung Julians Ayomi
+ NIM  : 10116076
+ Kelas: AKB-2
+ Tanggal Pengerjaan : 01 Mei 2019
+ */
+
 public class DailyActivitySubFragment extends Fragment implements DailyActivityView {
 
     public View v;
