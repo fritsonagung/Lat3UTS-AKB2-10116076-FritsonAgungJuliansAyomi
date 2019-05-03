@@ -33,27 +33,27 @@ public class GalleryPresenterImpl implements GalleryPresenter{
 
         GalleryModel picture1 = new GalleryModel();
         picture1.setPicture(R.drawable.gallery_2);
-        picture1.setPicTitle("Jalan-Jalan");
+        picture1.setPicTitle("Toyota AE-86 Side");
         pictures.add(picture1);
 
         GalleryModel picture2 = new GalleryModel();
         picture2.setPicture(R.drawable.gallery_3);
-        picture2.setPicTitle("Toyota AE-86 Side");
+        picture2.setPicTitle("Jalan-Jalan");
         pictures.add(picture2);
 
         GalleryModel picture3 = new GalleryModel();
         picture3.setPicture(R.drawable.gallery_4);
-        picture3.setPicTitle("Link Meme");
+        picture3.setPicTitle("Pas Foto");
         pictures.add(picture3);
 
         GalleryModel picture4 = new GalleryModel();
         picture4.setPicture(R.drawable.gallery_5);
-        picture4.setPicTitle("Twitch Screenshot");
+        picture4.setPicTitle("Classy Cat");
         pictures.add(picture4);
 
         GalleryModel picture5 = new GalleryModel();
         picture5.setPicture(R.drawable.gallery_6);
-        picture5.setPicTitle("Kaiba Meme");
+        picture5.setPicTitle("Flamingo");
         pictures.add(picture5);
 
     }
