@@ -35,13 +35,13 @@ public class InterestFragment extends Fragment {
         cita_cita = v.findViewById(R.id.desc_cita_cita);
 
         interest.setText("Interest : " +
-                "Jaringan Komputer, Pengembangan UI/UX, Pengembangan Video Game");
+                "Jaringan Komputer, Pengembangan UI/UX, & Pengembangan Video Game");
         hobby.setText("Hobby : " +
-                "Mendengarkan Musik, Bermain Game, Membaca Komik");
+                "Mendengarkan Musik, Bermain Game, & Membaca Komik");
         makes.setText("Makes : " +
-                "Kurang Tahu");
+                "Bakso, Nasi goreng, & Sop Ayam");
         mikes.setText("Mikes : " +
-                "Kurang Tahu");
+                "Es Teh Manis , Susu Kedelai, & Sprite");
         cita_cita.setText("Cita-Cita : " +
                 "Ingin mengembangkan sebuah video game sendiri");
 

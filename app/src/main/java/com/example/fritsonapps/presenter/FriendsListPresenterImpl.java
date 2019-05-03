@@ -46,17 +46,17 @@ public class FriendsListPresenterImpl implements FriendsListPresenter{
         picture3.setPicture(R.drawable.friends_4);
         picture3.setFriendsName("Muh. Rizky Fauzan");
         pictures.add(picture3);
-/*
+
         FriendsListModel picture4 = new FriendsListModel();
         picture4.setPicture(R.drawable.friends_5);
-        picture4.setFriendsName("");
+        picture4.setFriendsName("Hangga Adi P");
         pictures.add(picture4);
 
         FriendsListModel picture5 = new FriendsListModel();
         picture5.setPicture(R.drawable.friends_6);
-        picture5.setFriendsName("");
+        picture5.setFriendsName("Muh. Idris K");
         pictures.add(picture5);
-*/
+
     }
 
     @Override

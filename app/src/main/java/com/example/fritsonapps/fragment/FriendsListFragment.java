@@ -39,7 +39,7 @@ public class FriendsListFragment extends Fragment implements FriendsListView {
     private List<FriendsListModel> pictures = new ArrayList<>();
     private FriendsListAdapter friendsListAdapter;
     private FriendsListPresenter friendsListPresenter;
-    private int numberOfRows = 4;
+    private int numberOfRows = 6;
     private AppCompatDialog dialog;
 
 
