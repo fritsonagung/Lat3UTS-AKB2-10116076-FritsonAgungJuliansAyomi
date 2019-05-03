@@ -33,7 +33,7 @@ public class GalleryPresenterImpl implements GalleryPresenter{
 
         GalleryModel picture1 = new GalleryModel();
         picture1.setPicture(R.drawable.gallery_2);
-        picture1.setPicTitle("Random Street Nigga");
+        picture1.setPicTitle("Jalan-Jalan");
         pictures.add(picture1);
 
         GalleryModel picture2 = new GalleryModel();

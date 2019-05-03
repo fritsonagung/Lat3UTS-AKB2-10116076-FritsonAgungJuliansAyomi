@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatDialog;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,7 +51,7 @@ public class GalleryFragment extends Fragment implements GalleryView{
         galleryPresenter = new GalleryPresenterImpl(this);
 
         recyclerGallery = v.findViewById(R.id.recycler_view_gallery);
-        recyclerGallery.setLayoutManager(new GridLayoutManager(getActivity(),numberOfColumns));
+        recyclerGallery.setLayoutManager(new GridLayoutManager(getActivity(), numberOfColumns));
 
         galleryAdapter = new GalleryAdapter(pictures);
 
@@ -84,7 +85,9 @@ public class GalleryFragment extends Fragment implements GalleryView{
         final ImageView imageViewPicture = dialog.findViewById(R.id.picture_dialog_image_view);
         final TextView textViewPicTitle = dialog.findViewById(R.id.title_dialog_text);
 
+        assert imageViewPicture != null;
         imageViewPicture.setImageResource(picture.getPicture());
+        assert textViewPicTitle != null;
         textViewPicTitle.setText(picture.getPicTitle());
 
         if (!dialog.isShowing()) {

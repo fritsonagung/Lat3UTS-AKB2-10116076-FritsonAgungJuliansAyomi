@@ -7,14 +7,38 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.fritsonapps.R;
 
 public class InterestFragment extends Fragment {
 
+    View v;
+    TextView interest, hobby, makes, mikes, cita_cita;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.interest_fragment, null);
+        v = inflater.inflate(R.layout.interest_fragment, null);
+
+        interest = v.findViewById(R.id.desc_interest);
+        hobby = v.findViewById(R.id.desc_hobby);
+        makes = v.findViewById(R.id.desc_makes);
+        mikes = v.findViewById(R.id.desc_mikes);
+        cita_cita = v.findViewById(R.id.desc_cita_cita);
+
+        interest.setText("Interest : " +
+                "Jaringan Komputer, Pengembangan UI/UX, Pengembangan Video Game");
+        hobby.setText("Hobby : " +
+                "Mendengarkan Musik, Bermain Game, Membaca Komik");
+        makes.setText("Makes : " +
+                "Kurang Tahu");
+        mikes.setText("Mikes : " +
+                "Kurang Tahu");
+        cita_cita.setText("Cita-Cita : " +
+                "Ingin mengembangkan sebuah video game sendiri");
+
+
+        return v;
     }
 }

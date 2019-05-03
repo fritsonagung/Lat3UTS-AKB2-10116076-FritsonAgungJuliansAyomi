@@ -59,7 +59,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/_5sdp"
                                 android:fontFamily="@font/book_os"
-                                android:text="@string/full_name"
                                 android:textAlignment="center"
                                 android:textColor="@color/colorWhite"
                                 android:textSize="@dimen/_15sdp"
@@ -80,10 +79,9 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/_7sdp"
                                 android:fontFamily="@font/roboto_light"
-                                android:text="Umur : 20 tahun"
                                 android:textAlignment="center"
                                 android:textColor="@color/colorTransparentWhite"
-                                android:textSize="@dimen/_12sdp"
+                                android:textSize="@dimen/_13sdp"
                                 android:textStyle="italic"
                                 tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
                         </LinearLayout>
@@ -101,10 +99,9 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/_7sdp"
                                 android:fontFamily="@font/roboto_light"
-                                android:text="Jenis Kelamin : Laki-Laki"
                                 android:textAlignment="center"
                                 android:textColor="@color/colorTransparentWhite"
-                                android:textSize="@dimen/_12sdp"
+                                android:textSize="@dimen/_13sdp"
                                 android:textStyle="italic"
                                 tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
                         </LinearLayout>
@@ -117,14 +114,14 @@
                             android:layout_below="@id/jenis_kelamin_layout">
 
                             <TextView
+                                android:id="@+id/gol_darah"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/_7sdp"
                                 android:fontFamily="@font/roboto_light"
-                                android:text="Golongan Darah : O "
                                 android:textAlignment="center"
                                 android:textColor="@color/colorTransparentWhite"
-                                android:textSize="@dimen/_12sdp"
+                                android:textSize="@dimen/_13sdp"
                                 android:textStyle="italic"
                                 tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
                         </LinearLayout>
@@ -139,7 +136,7 @@
                 android:id="@+id/profileView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/_2sdp"
                 android:layout_below="@id/profileView">
 
                 <RelativeLayout
@@ -161,7 +158,6 @@
                         android:layout_marginBottom="@dimen/_15sdp"
                         android:fontFamily="@font/roboto_light"
                         android:gravity="fill_horizontal"
-                        android:text="@string/desc_profile"
                         android:textAlignment="center"
                         android:textColor="@color/colorTransparentWhite"
                         android:textSize="@dimen/_13sdp"

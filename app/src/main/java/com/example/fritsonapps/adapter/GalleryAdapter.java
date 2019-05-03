@@ -15,8 +15,8 @@ import java.util.List;
 
 public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHolder> {
 
-    private List<GalleryModel> pictures;
-    private OnCallbackListener listener;
+    private static List<GalleryModel> pictures;
+    private static OnCallbackListener listener;
 
 
     public GalleryAdapter(List<GalleryModel> pictures) {
@@ -33,7 +33,6 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         GalleryModel picture = pictures.get(position);
         holder.imageViewPicture.setImageResource(picture.getPicture());
-        holder.textViewPicTitle.setText(picture.getPicTitle());
     }
 
     @Override
@@ -45,7 +44,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
         this.listener = listener;
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+     static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         ImageView imageViewPicture;
         TextView textViewPicTitle;
@@ -55,7 +54,6 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
             itemView.setOnClickListener(this);
 
             imageViewPicture = itemView.findViewById(R.id.image_view_gallery);
-            textViewPicTitle = itemView.findViewById(R.id.gallery_pict_title_text);
         }
 
         @Override
@@ -68,6 +66,6 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
 
     public interface OnCallbackListener {
 
-        void onClick(GalleryModel clicks);
+        void onClick(GalleryModel user);
     }
 }

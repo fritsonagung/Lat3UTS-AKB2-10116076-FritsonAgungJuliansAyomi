@@ -15,16 +15,17 @@
         <android.support.v7.widget.CardView
             android:id="@+id/activity_View"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_50sdp"
             android:layout_marginBottom="@dimen/_2sdp"
             android:padding="@dimen/_16sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_50sdp"
                 android:orientation="horizontal"
                 android:background="@color/colorTransparentDarkPurple"
-                tools:ignore="DisableBaselineAlignment">
+                tools:ignore="DisableBaselineAlignment"
+                android:gravity="center">
 
                 <LinearLayout
                     android:id="@+id/icon_activity_layout"
