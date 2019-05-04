@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="@string/about_application"
+            android:padding="@dimen/_5sdp"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorTransparentDarkPurple"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_about"
+            android:drawableTint="@color/colorWhite"
+            android:drawablePadding="@dimen/_5sdp"
+            tools:ignore="RtlHardcoded,SpUsage,UnusedAttribute" />
+
+</LinearLayout>

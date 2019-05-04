@@ -12,10 +12,10 @@ import com.example.fritsonapps.R;
 
 /*
  Nama : Fritson Agung Julians Ayomi
- NIM  : 10116076
- Kelas: AKB-2
- Tanggal Pengerjaan : 24 April 2019
- */
+         NIM  : 10116076
+         Kelas: AKB-2
+         Tanggal Pengerjaan : 24 April 2019
+*/
 
 public class SplashActivity extends AppCompatActivity {
 

@@ -37,13 +37,9 @@ public class SliderAdapter extends PagerAdapter {
     };
 
     public String[] slider_description = {
-            "Terima kasih telah menggunakan Fritson Apps. Pada aplikasi ini anda dapat mengetahui " +
-                    "hal-hal yang bersangkutan dengan profil saya (Fritson). Mulai dari nama lengkap, tanggal lahir, " +
-                    "golongan darah dan hal lainnya ",
-            "Anda dapat mengetahui musik kesukaan yang sering saya dengarkan dan juga" +
-                    " genre musik seperti apa yang saya sukai",
-            "Anda juga dapat mengetahui tentang apa minat, hobby, cita-cita dan" +
-                    " hal-hal lainnya yang berhubungan dengan hobby dan interest saya"
+            "Pada aplikasi ini anda dapat mengetahui hal-hal yang bersangkutan dengan profil saya (Fritson)",
+            "Anda dapat mengetahui tipe musik seperti apa yang suka saya dengarkan",
+            "Anda juga dapat mengetahui tentang apa minat, hobby, cita-cita dan hal-hal lainnya"
     };
 
 

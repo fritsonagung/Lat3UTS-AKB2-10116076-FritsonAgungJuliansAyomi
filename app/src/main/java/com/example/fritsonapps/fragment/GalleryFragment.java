@@ -7,7 +7,6 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatDialog;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +20,6 @@ import com.example.fritsonapps.presenter.GalleryPresenter;
 import com.example.fritsonapps.presenter.GalleryPresenterImpl;
 import com.example.fritsonapps.view.GalleryView;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +27,7 @@ import java.util.List;
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
  Kelas: AKB-2
- Tanggal Pengerjaan : 01 Mei 2019
+ Tanggal Pengerjaan : 24 April 2019
  */
 
 public class GalleryFragment extends Fragment implements GalleryView{

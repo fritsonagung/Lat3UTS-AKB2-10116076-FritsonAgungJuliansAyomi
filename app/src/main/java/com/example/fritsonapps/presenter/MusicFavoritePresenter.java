@@ -7,6 +7,6 @@ package com.example.fritsonapps.presenter;
  Tanggal Pengerjaan : 24 April 2019
  */
 
-public interface FriendsListPresenter {
+public interface MusicFavoritePresenter {
     void load();
 }

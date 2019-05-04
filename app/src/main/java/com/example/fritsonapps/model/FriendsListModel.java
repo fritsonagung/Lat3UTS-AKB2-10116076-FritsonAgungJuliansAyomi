@@ -4,7 +4,7 @@ package com.example.fritsonapps.model;
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
  Kelas: AKB-2
- Tanggal Pengerjaan : 02 Mei 2019
+ Tanggal Pengerjaan : 24 April 2019
  */
 
 public class FriendsListModel {

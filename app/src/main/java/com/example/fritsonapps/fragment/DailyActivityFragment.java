@@ -7,28 +7,18 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.fritsonapps.R;
-import com.example.fritsonapps.adapter.DailyActivityAdapter;
 import com.example.fritsonapps.adapter.SubMenuPagerAdapter;
-import com.example.fritsonapps.model.DailyActivityModel;
-import com.example.fritsonapps.presenter.DailyActivityPresenter;
-import com.example.fritsonapps.presenter.DailyActivityPresenterImpl;
-import com.example.fritsonapps.view.DailyActivityView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /*
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
  Kelas: AKB-2
- Tanggal Pengerjaan : 01 Mei 2019
+ Tanggal Pengerjaan : 24 April 2019
  */
 
 

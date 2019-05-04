@@ -20,7 +20,6 @@ import com.example.fritsonapps.presenter.FriendsListPresenter;
 import com.example.fritsonapps.presenter.FriendsListPresenterImpl;
 import com.example.fritsonapps.view.FriendsListView;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +28,7 @@ import java.util.List;
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
  Kelas: AKB-2
- Tanggal Pengerjaan : 02 Mei 2019
+ Tanggal Pengerjaan : 24 April 2019
  */
 
 public class FriendsListFragment extends Fragment implements FriendsListView {
@@ -39,7 +38,6 @@ public class FriendsListFragment extends Fragment implements FriendsListView {
     private List<FriendsListModel> pictures = new ArrayList<>();
     private FriendsListAdapter friendsListAdapter;
     private FriendsListPresenter friendsListPresenter;
-    private int numberOfRows = 6;
     private AppCompatDialog dialog;
 
 
@@ -51,7 +49,7 @@ public class FriendsListFragment extends Fragment implements FriendsListView {
         friendsListPresenter = new FriendsListPresenterImpl(this);
 
         recyclerFriendsList = v.findViewById(R.id.recycler_view_friends);
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(),numberOfRows , GridLayoutManager.VERTICAL, false);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(), 6, GridLayoutManager.VERTICAL, false);
         recyclerFriendsList.setLayoutManager(gridLayoutManager);
 
         friendsListAdapter = new FriendsListAdapter(pictures);
@@ -62,7 +60,7 @@ public class FriendsListFragment extends Fragment implements FriendsListView {
 
         friendsListAdapter.setOnCallbackListener(new FriendsListAdapter.OnCallbackListener() {
             @Override
-            public void onClick (FriendsListModel picture){
+            public void onClick(FriendsListModel picture) {
                 showDialog(picture);
             }
         });
