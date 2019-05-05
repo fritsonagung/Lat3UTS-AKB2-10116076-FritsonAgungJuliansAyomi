@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="@dimen/_150sdp"
-    android:layout_height="@dimen/_160sdp"
+    android:layout_height="@dimen/_200sdp"
     android:layout_margin="@dimen/_5sdp"
     app:cardCornerRadius="@dimen/_4sdp"
     android:layout_gravity="center_vertical">
 
     <LinearLayout
         android:layout_width="@dimen/_150sdp"
-        android:layout_height="@dimen/_160sdp"
+        android:layout_height="@dimen/_200sdp"
         android:orientation="vertical"
         android:background="@color/colorTransparentDarkPurple">
 
         <ImageView
             android:id="@+id/image_view_friends"
             android:layout_width="@dimen/_150sdp"
-            android:layout_height="@dimen/_130sdp"
+            android:layout_height="@dimen/_170sdp"
             android:background="@color/colorTransparentDarkPurple"
             android:scaleType="centerCrop"
             tools:ignore="ContentDescription" />

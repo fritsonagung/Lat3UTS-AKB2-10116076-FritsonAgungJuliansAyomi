@@ -8,22 +8,19 @@
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="@dimen/_43sdp"
-        android:background="@color/colorBlackishPurple"
-        android:paddingTop="@dimen/_3sdp"
-        android:paddingBottom="@dimen/_5sdp">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@color/colorBlackishPurple">
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler_view_video"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="?attr/actionBarSize"
                 android:background="@color/colorBlackishPurple"
                 android:baselineAligned="false"/>
 

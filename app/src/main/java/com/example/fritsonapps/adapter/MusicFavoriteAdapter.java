@@ -41,8 +41,6 @@ public class MusicFavoriteAdapter extends RecyclerView.Adapter<MusicFavoriteAdap
         holder.imageViewArtwork.setImageResource(song.getArtwork());
         holder.textViewTitle.setText(song.getSongTitle());
         holder.textViewGenre.setText(song.getSongGenre());
-
-
     }
 
 
@@ -62,6 +60,7 @@ public class MusicFavoriteAdapter extends RecyclerView.Adapter<MusicFavoriteAdap
             imageViewArtwork = (ImageView) ItemView.findViewById(R.id.song_artwork);
             textViewTitle = (TextView) ItemView.findViewById(R.id.song_title_and_artist_text);
             textViewGenre = (TextView) ItemView.findViewById(R.id.song_genre_text);
+
         }
 
     }

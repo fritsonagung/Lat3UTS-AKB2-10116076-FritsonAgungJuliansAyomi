@@ -36,8 +36,6 @@ public class MusicFavoriteFragment extends Fragment implements MusicFavoriteView
     private MusicFavoriteAdapter musicFavoriteAdapter;
     private MusicFavoritePresenter musicFavoritePresenter;
 
-    private boolean isPlaying = false;
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
