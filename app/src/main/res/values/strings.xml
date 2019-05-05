@@ -24,7 +24,7 @@
     <string name="title_activity_bottom_navigation">BottomNavigation</string>
     <string name="about_application">About Application</string>
     <string name="about_version">Anda sedang menggunakan Fritson Apps Versi 1.0</string>
-
+    <string name="googleMapsKey">Insert Your API KEY HERE</string>
  
 </resources>
 
