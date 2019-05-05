@@ -25,7 +25,7 @@ import java.util.List;
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
  Kelas: AKB-2
- Tanggal Pengerjaan : 24 April 2019
+ Tanggal Pengerjaan : 03 Mei 2019
  */
 
 public class MusicFavoriteFragment extends Fragment implements MusicFavoriteView {
@@ -35,6 +35,8 @@ public class MusicFavoriteFragment extends Fragment implements MusicFavoriteView
     private List<MusicFavoriteModel> songs = new ArrayList<>();
     private MusicFavoriteAdapter musicFavoriteAdapter;
     private MusicFavoritePresenter musicFavoritePresenter;
+
+    private boolean isPlaying = false;
 
     @Nullable
     @Override

@@ -19,7 +19,7 @@ import com.example.fritsonapps.adapter.SubMenuPagerAdapter;
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
  Kelas: AKB-2
- Tanggal Pengerjaan : 24 April 2019
+ Tanggal Pengerjaan : 03 Mei 2019
  */
 
 public class ProfileFragment extends Fragment {

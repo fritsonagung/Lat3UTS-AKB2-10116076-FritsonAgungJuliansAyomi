@@ -3,11 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorWhite">#f3f3f3</color>
-    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
     <color name="colorPurple">#6441A5</color>
     <color name="colorLittleDarkPurple">#4B367B</color>
-    <color name="colorTransparentDarkPurple">#201c2b</color>
+    <color name="colorTransparentDarkPurple">#201C2B</color>
     <color name="colorDarkPurple">#2b2541</color>
     <color name="colorBlackishPurple">#17141F</color>
     <color name="colorPaletteDarkPurple">#C6B7E2</color>

@@ -20,7 +20,7 @@
             android:background="@color/colorLittleDarkPurple"
             app:tabSelectedTextColor="@color/colorPaletteDarkPurple"
             app:tabTextColor="@color/colorTransparentPaletteDarkPurple"
-            app:tabIndicatorColor="@color/colorBlackishPurple" />
+            app:tabIndicatorColor="@color/colorPurple"/>
 
         <android.support.v4.view.ViewPager
             android:id="@+id/daily_view_pager"

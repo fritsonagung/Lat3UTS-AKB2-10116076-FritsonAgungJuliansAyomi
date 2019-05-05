@@ -37,7 +37,7 @@ public class SliderAdapter extends PagerAdapter {
     };
 
     public String[] slider_description = {
-            "Pada aplikasi ini anda dapat mengetahui hal-hal yang bersangkutan dengan profil saya (Fritson)",
+            "Pada aplikasi ini anda dapat mengetahui hal-hal yang bersangkutan dengan profil saya",
             "Anda dapat mengetahui tipe musik seperti apa yang suka saya dengarkan",
             "Anda juga dapat mengetahui tentang apa minat, hobby, cita-cita dan hal-hal lainnya"
     };

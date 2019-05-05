@@ -8,7 +8,7 @@
     android:background="@color/colorPurple"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".view.SplashActivity">
+    tools:context=".SplashActivity">
 
     <ImageView
         android:id="@+id/logoSplashScreen"

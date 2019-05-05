@@ -14,19 +14,16 @@ import com.example.fritsonapps.model.MusicFavoriteModel;
 import java.util.List;
 
 
-
-
 /*
  Nama : Fritson Agung Julians Ayomi
  NIM  : 10116076
  Kelas: AKB-2
- Tanggal Pengerjaan : 24 April 2019
+ Tanggal Pengerjaan : 03 Mei 2019
  */
 
 public class MusicFavoriteAdapter extends RecyclerView.Adapter<MusicFavoriteAdapter.ViewHolder> {
 
     private List<MusicFavoriteModel> songs;
-
 
     public MusicFavoriteAdapter(List<MusicFavoriteModel> songs) {
         this.songs = songs;
@@ -44,6 +41,8 @@ public class MusicFavoriteAdapter extends RecyclerView.Adapter<MusicFavoriteAdap
         holder.imageViewArtwork.setImageResource(song.getArtwork());
         holder.textViewTitle.setText(song.getSongTitle());
         holder.textViewGenre.setText(song.getSongGenre());
+
+
     }
 
 
@@ -51,7 +50,6 @@ public class MusicFavoriteAdapter extends RecyclerView.Adapter<MusicFavoriteAdap
     public int getItemCount() {
         return songs.size();
     }
-
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageViewArtwork;
@@ -64,8 +62,7 @@ public class MusicFavoriteAdapter extends RecyclerView.Adapter<MusicFavoriteAdap
             imageViewArtwork = (ImageView) ItemView.findViewById(R.id.song_artwork);
             textViewTitle = (TextView) ItemView.findViewById(R.id.song_title_and_artist_text);
             textViewGenre = (TextView) ItemView.findViewById(R.id.song_genre_text);
-
-
         }
+
     }
 }
